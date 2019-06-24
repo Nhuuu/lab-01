@@ -1,0 +1,56 @@
+/* 
+Each box should have a unique background color in mobile view and in desktop view. We are not working with jQuery events yet, so these changes should be observed when the screen size changes and the page is refreshed. */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  color: grey;
+}
+
+#container {
+  margin: 50px auto;
+  background-color: lightgrey;
+  max-width: 960px;
+  height: 700px;
+}
+
+main {
+  height: 600px;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+}
+
+nav > div {
+  vertical-align: middle;
+}
+
+aside {
+  height: 600px;
+  width: 200px;
+  float: left;
+}
+
+section {
+  overflow: auto;
+}
+
+#col-2 div {
+  height: 200px;
+  width: 380px;
+  float: left;
+}
+
+#col-4 div {
+  height: 250px;
+  width: 190px;
+  float: left;
+}
+
+#last, #last > div {
+  height: 150px;
+  width: 760px;
+}
