@@ -1,6 +1,3 @@
-/* 
-Each box should have a unique background color in mobile view and in desktop view. We are not working with jQuery events yet, so these changes should be observed when the screen size changes and the page is refreshed. */
-
 * {
   box-sizing: border-box + 3px;
   text-align: center;
