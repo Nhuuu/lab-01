@@ -2,7 +2,7 @@
 Each box should have a unique background color in mobile view and in desktop view. We are not working with jQuery events yet, so these changes should be observed when the screen size changes and the page is refreshed. */
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box + 3px;
   text-align: center;
   color: grey;
 }
@@ -10,47 +10,29 @@ Each box should have a unique background color in mobile view and in desktop vie
 #container {
   margin: 50px auto;
   background-color: lightgrey;
-  max-width: 960px;
-  height: 700px;
+  border: solid grey 1px;
 }
 
-main {
-  height: 600px;
-  width: 100%;
-}
+/* Desktop view */
+@media screen and (min-width: 768px){
+  body {
+    background-color: lightcyan;
+  }
 
-nav {
-  width: 100%;
-  height: 100px;
+  #container {
+    height: 700px;
+    max-width: 964px;
+  }
 }
+/* Mobile view */
+@media screen and (min-width: 480px) and (max-width: 767px){
+  body {
+    background-color: lightcoral;
+    width: auto;
+  } 
 
-nav > div {
-  vertical-align: middle;
-}
-
-aside {
-  height: 600px;
-  width: 200px;
-  float: left;
-}
-
-section {
-  overflow: auto;
-}
-
-#col-2 div {
-  height: 200px;
-  width: 380px;
-  float: left;
-}
-
-#col-4 div {
-  height: 250px;
-  width: 190px;
-  float: left;
-}
-
-#last, #last > div {
-  height: 150px;
-  width: 760px;
+  #container {
+    width: 480px;
+    height: 1055px;
+  }
 }
