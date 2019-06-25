@@ -24,6 +24,8 @@ Each box should have a unique background color in mobile view and in desktop vie
     max-width: 964px;
   }
 }
+
+
 /* Mobile view */
 @media screen and (min-width: 480px) and (max-width: 767px){
   body {

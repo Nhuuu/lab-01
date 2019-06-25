@@ -33,12 +33,17 @@
   #col-2 div {
     height: 125px;
     width: 100%;
-    
+    border-bottom: solid grey 1px;
   }
 
   #col-4 div {
     height: 250px;
-    width: 50%;
+    width: 239px;
+    border-bottom: solid grey 1px;
+  }
+
+  #col-4 div:first-child, #col-4 div:nth-child(3) {
+    border-right: solid grey 1px;
   }
 
   #last, #last > div {

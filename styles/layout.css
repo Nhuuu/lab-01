@@ -10,8 +10,10 @@ nav {
   border-bottom: solid grey 1px;
 }
 
-aside {
-  border-right: solid grey 1px;
+nav, aside, section > div {
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -26,6 +28,7 @@ aside {
     height: 600px;
     width: 200px;
     float: left;
+    border-right: solid grey 1px;
   }
 }
 
@@ -40,5 +43,6 @@ aside {
   aside {
     height: 150px;
     width: 100%;
+    border-bottom: solid grey 1px;
   }
 }
