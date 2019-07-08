@@ -11,7 +11,7 @@
 }
 
 /* Desktop view */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
   body {
     background-color: lightcyan;
   }
@@ -19,6 +19,18 @@
   #container {
     height: 700px;
     max-width: 964px;
+  }
+}
+
+/* Tablet view */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  body {
+    background-color: lightpink;
+  }
+
+  #container {
+    height: 700px;
+    max-width: 90%;
   }
 }
 
@@ -31,7 +43,8 @@
   } 
 
   #container {
-    width: 480px;
+    width: 90%;
     height: 1055px;
   }
 }
+
