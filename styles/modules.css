@@ -1,18 +1,10 @@
-section#col-2 {
-  width: 100%;
-  display: flex;
-  justify-content: start;
+#col-2 div {
+  width: 50%;
 }
-  #col-2 > div {
-    width: 50%;
-  }
 
-section#col-4 {
-  width: 100%;
+#col-4 div {
+  width: 25%;
 }
-  #col-4 div {
-    width: 25%;
-  }
 
 
 /* Desktop View */
@@ -68,7 +60,6 @@ section#col-4 {
 /* Tablet view */
 @media screen and (min-width: 768px) and (max-width: 991px){
 
-
 }
 
 
@@ -90,7 +81,6 @@ section#col-4 {
 
   #col-4 div {
     height: 250px;
-    width: 239px;
     border-bottom: solid grey 1px;
   }
 

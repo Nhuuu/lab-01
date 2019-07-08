@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box + 3px;
+  box-sizing: border-box;
   text-align: center;
   color: grey;
 }
@@ -8,6 +8,8 @@
   margin: 50px auto;
   background-color: lightgrey;
   border: solid grey 1px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Desktop view */
@@ -29,7 +31,7 @@
   }
 
   #container {
-    height: 700px;
+    height: auto;
     max-width: 90%;
   }
 }
@@ -44,7 +46,7 @@
 
   #container {
     width: 90%;
-    height: 1055px;
+    height: auto;
   }
 }
 

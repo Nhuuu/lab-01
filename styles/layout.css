@@ -1,5 +1,8 @@
 main {
-  width: 100%;
+  width: 80%;
+}
+
+main section {
   display: flex;
 }
 
@@ -61,5 +64,9 @@ nav, aside, section > div {
     height: 150px;
     border-bottom: solid grey 1px;
     background-color: rgb(255, 145, 0);
+  }
+
+  main {
+    width: 100%;
   }
 }
